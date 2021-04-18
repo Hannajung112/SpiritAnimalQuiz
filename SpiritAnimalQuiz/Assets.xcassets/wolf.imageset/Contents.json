@@ -2,18 +2,7 @@
   "images" : [
     {
       "filename" : "wolf.jpeg",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "wolf-1.jpeg",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "wolf-2.jpeg",
-      "idiom" : "universal",
-      "scale" : "3x"
+      "idiom" : "universal"
     }
   ],
   "info" : {

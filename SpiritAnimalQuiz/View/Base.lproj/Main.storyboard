@@ -185,6 +185,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="YouAreALabel" destination="0Nj-Ci-fU2" id="zEg-y5-gK4"/>
                         <outlet property="animalLabel" destination="2d9-nN-rgN" id="uUu-n6-lpk"/>
                         <outlet property="pictureView" destination="JBf-gh-DxZ" id="BAJ-i6-nYZ"/>
                         <outlet property="tryAgainbutton" destination="3Ff-0t-ysz" id="g3t-Ko-YED"/>
@@ -196,8 +197,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="23281" width="3000.5" height="2000.5"/>
-        <image name="cat" width="250" height="265.5"/>
+        <image name="23281" width="6001" height="4001"/>
+        <image name="cat" width="500" height="531"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

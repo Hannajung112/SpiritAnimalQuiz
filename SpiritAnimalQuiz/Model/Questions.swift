@@ -52,23 +52,26 @@ struct Questions {
     
     mutating func animalChoose(quizNumInStruct: Int) {
         
+        let a = "You are a"
+        let an = "You are an"
+        
         switch quizNumInStruct {
         case 40:
-            ani = animal(animalPic: picArray[5], animalName: animalArray[5])
+            ani = animal(animalPic: picArray[5], animalName: animalArray[5], animalAAn: a)
         case 41:
-            ani = animal(animalPic: picArray[0], animalName: animalArray[0])
+            ani = animal(animalPic: picArray[0], animalName: animalArray[0], animalAAn: a)
         case 42:
-            ani = animal(animalPic: picArray[3], animalName: animalArray[3])
+            ani = animal(animalPic: picArray[3], animalName: animalArray[3], animalAAn: a)
         case 43:
-            ani = animal(animalPic: picArray[4], animalName: animalArray[4])
+            ani = animal(animalPic: picArray[4], animalName: animalArray[4], animalAAn: a)
         case 44:
-            ani = animal(animalPic: picArray[7], animalName: animalArray[7])
+            ani = animal(animalPic: picArray[7], animalName: animalArray[7], animalAAn: a)
         case 45:
-            ani = animal(animalPic: picArray[1], animalName: animalArray[1])
+            ani = animal(animalPic: picArray[1], animalName: animalArray[1], animalAAn: a)
         case 46:
-            ani = animal(animalPic: picArray[2], animalName: animalArray[2])
+            ani = animal(animalPic: picArray[2], animalName: animalArray[2], animalAAn: an)
         case 47:
-            ani = animal(animalPic: picArray[6], animalName: animalArray[6])
+            ani = animal(animalPic: picArray[6], animalName: animalArray[6], animalAAn: a)
         default:
             print("Error")
         }
@@ -84,6 +87,10 @@ struct Questions {
     
     func getAnimalName() -> String {
         return ani?.animalName ?? "nil"
+    }
+    
+    func getThisIsAOrAn() -> String {
+        return ani?.animalAAn ?? "nil"
     }
     
     

@@ -22,9 +22,11 @@ struct question {
 struct animal {
     var animalPic : UIImage
     var animalName : String
+    var animalAAn : String
     
-    init(animalPic: UIImage, animalName: String) {
+    init(animalPic: UIImage, animalName: String, animalAAn: String) {
         self.animalPic = animalPic
         self.animalName = animalName
+        self.animalAAn = animalAAn
     }
 }

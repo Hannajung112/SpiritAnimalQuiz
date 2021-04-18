@@ -62,6 +62,7 @@ class ViewController: UIViewController {
             let destinationVC = segue.destination as! SecondViewController
             destinationVC.animalPictureChoose = questionModel.getAnimalPic()
             destinationVC.animalNameChoose = questionModel.getAnimalName()
+            destinationVC.animalAOrAnChoose = questionModel.getThisIsAOrAn()
             
         }
         

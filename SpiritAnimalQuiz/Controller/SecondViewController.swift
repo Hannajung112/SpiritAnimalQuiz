@@ -12,9 +12,11 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var pictureView: UIImageView!
     @IBOutlet weak var animalLabel: UILabel!
     @IBOutlet weak var tryAgainbutton: UIButton!
+    @IBOutlet weak var YouAreALabel: UILabel!
     
     var animalPictureChoose : UIImage?
     var animalNameChoose : String?
+    var animalAOrAnChoose : String?
     var player: AVAudioPlayer?
     
     var questionStruct = Questions()
@@ -25,6 +27,7 @@ class SecondViewController: UIViewController {
         
         tryAgainbutton.layer.cornerRadius = 30
         
+        YouAreALabel.text = animalAOrAnChoose
         pictureView.image = animalPictureChoose
         animalLabel.text = animalNameChoose
     }
